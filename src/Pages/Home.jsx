@@ -6,26 +6,24 @@ import '../css/Home.css'
 
 const COURSE_DATABASE = {
     "DPST1093": [
-        { name: "Weekly Labs" },
-        { name: "Iteration 0" },
-        { name: "Iteration 1" },
-        { name: "Iteration 2" },
-        { name: "Iteration 3" },
-        { name: "Final Exam", isHurdle: true }
+        { name: "Weekly Labs", weight: 10 },
+        { name: "Iteration 0", weight: 2 },
+        { name: "Iteration 1", weight: 10 },
+        { name: "Iteration 2", weight: 18 },
+        { name: "Iteration 3", weight: 15 },
+        { name: "Final Exam", weight: 45, isHurdle: true }
     ],
     "DPST1091": [
-        { name: "Lab exercise" },
-        { name: "Assignment I" },
-        { name: "Assignment II" },
-        { name: "Tutorial Hurdle" },
-        { name: "Final Exam", isHurdle: true }
+        { name: "Lab exercise", weight: 15 },
+        { name: "Assignment I", weight: 20},
+        { name: "Assignment II", weight: 25 },
+        { name: "Final Exam", weight: 40, isHurdle: true }
     ],
     "DPST1092": [
-        { name: "Lab exercise" },
-        { name: "Assignment I" },
-        { name: "Assignment II" },
-        { name: "Tutorial Hurdle" },
-        { name: "Final Exam", isHurdle: true }
+        { name: "Lab exercise", weight: 15 },
+        { name: "Assignment I", weight: 20 },
+        { name: "Assignment II", weight: 20 },
+        { name: "Final Exam",weight: 45, isHurdle: true }
     ],
 };
 
