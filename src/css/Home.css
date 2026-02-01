@@ -1,0 +1,42 @@
+.HomeContent {
+  margin-left: 250px; 
+  padding: 40px;
+  background-color: #f9fafb; 
+  min-height: 100vh; 
+  font-family: 'Inter', sans-serif;
+}
+
+
+.searchCourse {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 40px; 
+}
+
+
+.inputSearch {
+  width: 100%;
+  max-width: 500px;        
+  padding: 16px 24px;      
+  font-size: 16px;
+  border-radius: 50px;     
+  border: 1px solid #e5e7eb;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
+  outline: none;           
+  transition: all 0.2s ease;
+}
+
+
+.inputSearch:focus {
+  border-color: #2563eb;   
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); 
+}
+
+
+.CardGrid {
+  display: flex;
+  gap: 24px;               
+  flex-wrap: wrap;         
+  justify-content: flex-start; 
+}
