@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import SideBar from '../Components/SideBar'
-import CourseCard from '../Components/CourseCard'
+import SideBar from '../Components/SideBar.jsx'
+import CourseCard from '../Components/CourseCard.jsx'
 import '../css/Home.css'
 
 

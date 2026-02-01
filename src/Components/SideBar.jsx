@@ -1,4 +1,3 @@
-import React from 'react'
 import '../css/SideBar.css';
 import { IoSchool } from "react-icons/io5";
 import { HiMiniHome } from "react-icons/hi2";

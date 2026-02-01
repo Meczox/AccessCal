@@ -1,10 +1,10 @@
-import Home from './Pages/Home'
+import Home from './Pages/Home.jsx'
 import { Route, Routes } from 'react-router-dom'
 
-import Export from './Pages/Export'
-import Donation from './Pages/Donation'
-import ReportBugs from './Pages/ReportBugs'
-import Settings from './Pages/Settings'
+import Export from './Pages/Export.jsx'
+import Donation from './Pages/Donation.jsx'
+import ReportBugs from './Pages/ReportBugs.jsx'
+import Settings from './Pages/Settings.jsx'
 
 import ComingSoon from './Pages/ComingSoon'
 
